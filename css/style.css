@@ -720,6 +720,7 @@ body{
 
     .navbar{
         min-height: 120px;
+        margin-bottom: 0px;
     }
 
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -744,6 +745,31 @@ body{
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
         background-color: #0c0c0c;
     }
+
+    .slider_section{
+        background: gray;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background: url("../assets/slider_image.png");
+        background-size: cover;
+        background-position: 50% 0%;
+    }
+
+    .slider_text{
+        position: static;
+        margin-bottom: 40px;
+    }
+
+    .feature_section, .detail_section1, .detail_section2{
+    margin: 0;
+    padding: 0;
+    }
+
+    .col-md-6, .col-md-4{
+        padding: 0;
+    }
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .footer_section{
@@ -760,9 +786,44 @@ body{
         margin-top: 35px;
     }
 
+    .slider_section{
+        background: gray;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background: url("../assets/slider_image.png");
+        background-size: cover;
+        background-position: 50% 0%;
+    }
+
+    .slider_text{
+        position: static;
+        margin-bottom: 40px;
+    }
+
 }
-@media (min-width: 992px) and (max-width: 1200px) { }
-@media (min-width: 1200px) {  }
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu_item ul li {
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1600px){
+
+}
+
+@media (min-width: 1600px) and (max-width: 2545px){
+    .menuvar {
+        width: 40%;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
 
 /* This only works with JavaScript,
 if it's not present, don't show loader */
