@@ -361,9 +361,9 @@ p{
 .instragram_section{
     background: #f0f0f0;
     width: 100%;
+    height: 31px;
     margin: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 .instragram_section p{
@@ -372,8 +372,15 @@ p{
 }
 
 .instragram_section img{
-    max-width: 30px;
+    max-width: 20px;
+    display: inline;
+    float: right;
 
+
+}
+
+.instragram_section div{
+    display: inline;
 }
 
 .instra_footer{
@@ -473,6 +480,9 @@ p{
     }
 }
 @media (min-width: 320px) and (max-width: 768px) {
+
+
+
     .footer_section{
         text-align: center;
     }
@@ -529,6 +539,14 @@ p{
     .col-md-6, .col-md-4{
         padding: 0;
     }
+
+    .instragram_section {
+        background: #f0f0f0;
+        width: 100%;
+        height: 48px;
+        margin: 0;
+        padding: 15px;
+    }
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .footer_section{
@@ -568,8 +586,20 @@ p{
         margin-right: 0px;
         margin-left: 0px;
     }
+
+    .event_text h3{
+        font-size: 17px;
+    }
 }
 @media (min-width: 1200px) and (max-width: 1600px){
+
+    .instragram_section {
+        background: #f0f0f0;
+        width: 100%;
+        height: 48px;
+        margin: 0;
+        padding: 15px;
+    }
 
 }
 
@@ -580,6 +610,14 @@ p{
         top: 30px;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .instragram_section {
+        background: #f0f0f0;
+        width: 100%;
+        height: 48px;
+        margin: 0;
+        padding: 15px;
     }
 
 }
