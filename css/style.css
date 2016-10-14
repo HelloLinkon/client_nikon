@@ -662,6 +662,11 @@ and (orientation : portrait) {
         min-height: 0px;
     }
 
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+
     .menu_item ul li {
         display: inline-block;
          margin-right: 0px;
