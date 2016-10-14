@@ -23,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
@@ -44,13 +44,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="726" column="39" selection-start-line="726" selection-start-column="39" selection-end-line="726" selection-end-column="39" />
+            <state relative-caret-position="427">
+              <caret line="631" column="19" selection-start-line="631" selection-start-column="19" selection-end-line="631" selection-end-column="19" />
               <folding>
-                <element signature="e#6094#6130#0" expanded="false" />
+                <element signature="e#6074#7314#0" expanded="false" />
+                <element signature="e#7366#9035#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,8 +70,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -245,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476418146681</updated>
-      <workItem from="1476418150066" duration="28225000" />
+      <workItem from="1476418150066" duration="28755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28225000" />
+    <option name="totallyTimeSpent" value="28755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -290,16 +291,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="726" column="39" selection-start-line="726" selection-start-column="39" selection-end-line="726" selection-end-column="39" />
-          <folding>
-            <element signature="e#6094#6130#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -315,6 +306,17 @@
             <element signature="e#12250#12257#0" expanded="true" />
             <element signature="e#14304#14311#0" expanded="true" />
             <marker date="1476464211000" expanded="false" signature="10959:14414" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="631" column="19" selection-start-line="631" selection-start-column="19" selection-end-line="631" selection-end-column="19" />
+          <folding>
+            <element signature="e#6074#7314#0" expanded="false" />
+            <element signature="e#7366#9035#0" expanded="false" />
           </folding>
         </state>
       </provider>
