@@ -659,7 +659,7 @@ and (orientation : portrait) {
 
     .navbar {
         margin-bottom: 0;
-        min-height: 0px;
+        /*min-height: 0px;*/
     }
 
     .navbar-nav {
