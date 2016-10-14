@@ -455,187 +455,314 @@ body{
 /*media query*/
 
 
-/* phone (portrait)----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 720px)
- {
-    /* STYLES GO HERE */
-    .header_section{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-bottom: 100px;
+
+
+/*@media screen and (max-width: 960px) {*/
+
+    /*.wrapper{*/
+        /*background: #e6e6e6;*/
+    /*}*/
+    /*.logo {*/
+        /*position: absolute;*/
+        /*top: 16px;*/
+        /*left: 30px;*/
+    /*}*/
+
+    /*.header_section{*/
+        /*padding-top: 20px;*/
+        /*padding-bottom: 20px;*/
+        /*margin-bottom: 100px;*/
+
+    /*}*/
+
+    /*.feature_section, .detail_section1, .detail_section2{*/
+        /*margin: 0;*/
+        /*padding: 0;*/
+    /*}*/
+
+    /*.container {*/
+        /*width: 100%;*/
+        /*padding: 0%;*/
+    /*}*/
+
+    /*.slider_section{*/
+        /*background: url("../assets/slider_image.png");*/
+        /*background-size: cover;*/
+        /*background-position: 50% 0%;*/
+        /*width: 100%;*/
+        /*height: 80vh;*/
+
+    /*}*/
+
+    /*.phone_slider{*/
+        /*width: 100%;*/
+        /*height: 400px;*/
+        /*position: relative;*/
+    /*}*/
+
+    /*.slider_text{*/
+        /*position: relative;*/
+        /*top: 60%;*/
+        /*left:0;*/
+
+    /*}*/
+
+    /*.navbar{*/
+        /*margin-bottom: 0;*/
+
+
+    /*}*/
+
+    /*.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {*/
+        /*margin-top: 42px;*/
+        /*background: black;*/
+
+    /*}*/
+
+    /*.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {*/
+
+        /*background: black;*/
+    /*}*/
+
+    /*.navbar-default .navbar-collapse, .navbar-default .navbar-form {*/
+        /*border-color: #e7e7e7;*/
+        /*margin-top: 60px;*/
+    /*}*/
+
+/*}*/
+
+
+/*!*!* Smartphones (portrait and landscape) ----------- *!*!*/
+/*!*@media only screen*!*/
+/*!*and (min-device-width : 320px)*!*/
+/*!*and (max-device-width : 480px) {*!*/
+    /*!*!* STYLES GO HERE *!*!*/
+/*!*}*!*/
+
+/*!*!* Smartphones (landscape) ----------- *!*!*/
+/*!*@media only screen*!*/
+/*!*and (min-width : 321px) {*!*/
+    /*!*!* STYLES GO HERE *!*!*/
+/*!*}*!*/
+
+/*!*!* Smartphones (portrait) ----------- *!*!*/
+/*!*@media only screen*!*/
+/*!*and (max-width : 320px) {*!*/
+    /*!*!* STYLES GO HERE *!*!*/
+/*!*}*!*/
+
+/*!* iPads (portrait and landscape) ----------- *!*/
+/*@media only screen*/
+/*and (min-device-width : 720px)*/
+/*and (max-device-width : 1024px) {*/
+    /*!* STYLES GO HERE *!*/
+
+    /*.logo {*/
+        /*position: absolute;*/
+        /*top: 16px;*/
+        /*left: 30px;*/
+    /*}*/
+
+    /*.header_section{*/
+        /*padding-top: 20px;*/
+        /*padding-bottom: 20px;*/
+        /*margin-bottom: 0px;*/
+    /*}*/
+
+    /*.feature_section, .detail_section1, .detail_section2{*/
+        /*margin: 0;*/
+        /*padding: 0;*/
+    /*}*/
+
+    /*.container {*/
+        /*width: 100%;*/
+        /*padding: 0%;*/
+    /*}*/
+
+    /*.slider_section{*/
+        /*background: url("../assets/slider_image.png");*/
+        /*background-size: cover;*/
+        /*background-position: 50% 0%;*/
+        /*width: 100%;*/
+        /*height: 80vh;*/
+
+    /*}*/
+
+    /*.phone_slider{*/
+        /*width: 100%;*/
+        /*height: 400px;*/
+        /*position: relative;*/
+    /*}*/
+
+    /*.slider_text{*/
+        /*position: relative;*/
+        /*top: 60%;*/
+        /*left: 20px;*/
+        /*width: 65%;*/
+
+    /*}*/
+
+    /*.navbar{*/
+        /*margin-bottom: 0;*/
+        /*!*min-height: 120px;*!*/
+
+    /*}*/
+
+    /*.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {*/
+        /*margin-top: 42px;*/
+        /*background: black;*/
+
+    /*}*/
+
+    /*.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {*/
+
+        /*background: black;*/
+    /*}*/
+
+    /*.navbar-default .navbar-collapse, .navbar-default .navbar-form {*/
+        /*border-color: #e7e7e7;*/
+        /*margin-top: 60px;*/
+    /*}*/
+
+    /*.navbar-nav {*/
+        /*float: right;*/
+        /*margin: 0;*/
+    /*}*/
+
+    /*.menu_item ul li {*/
+        /*display: inline-block;*/
+        /*margin-right: 0px;*/
+    /*}*/
+
+    /*.menu_item ul li a {*/
+        /*!* padding: 10px; *!*/
+        /*font-size: 12px;*/
+        /*font-weight: bold;*/
+        /*color: black;*/
+        /*text-decoration: none;*/
+    /*}*/
+
+/*}*/
+
+
+/*!* iPhone 5 (portrait)----------- *!*/
+/*@media only screen*/
+/*and (min-device-width : 320px)*/
+/*and (max-device-width : 720px)*/
+ /*{*/
+    /*!* STYLES GO HERE *!*/
+    /*.header_section{*/
+        /*padding-top: 20px;*/
+        /*padding-bottom: 20px;*/
+        /*margin-bottom: 100px;*/
+    /*}*/
+
+    /*.feature_section, .detail_section1, .detail_section2{*/
+        /*margin: 0;*/
+        /*padding: 0;*/
+    /*}*/
+
+    /*.container {*/
+        /*width: 100%;*/
+        /*padding: 0%;*/
+    /*}*/
+
+    /*.slider_section{*/
+        /*background: url("../assets/slider_image.png");*/
+        /*background-size: cover;*/
+        /*background-position: 50% 0%;*/
+        /*width: 100%;*/
+        /*height: 80vh;*/
+
+    /*}*/
+
+    /*.phone_slider{*/
+        /*width: 100%;*/
+        /*height: 400px;*/
+        /*position: relative;*/
+    /*}*/
+
+    /*.slider_text{*/
+        /*position: relative;*/
+        /*top: 60%;*/
+        /*left: 10px;*/
+
+    /*}*/
+
+
+    /*.navbar{*/
+        /*margin-bottom: 0;*/
+        /*height: 120px;*/
+
+    /*}*/
+
+    /*.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {*/
+        /*margin-top: 42px;*/
+        /*background: black;*/
+
+    /*}*/
+
+    /*.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {*/
+
+        /*background: black;*/
+    /*}*/
+
+    /*.navbar-default .navbar-collapse, .navbar-default .navbar-form {*/
+        /*border-color: #e7e7e7;*/
+        /*margin-top: 60px;*/
+    /*}*/
+/*}*/
+
+@media (max-width: 768px) {
+    .footer_section{
+        text-align: center;
     }
-
-    .feature_section, .detail_section1, .detail_section2{
-        margin: 0;
-        padding: 0;
-    }
-
-    .container {
-        width: 100%;
-        padding: 0%;
-    }
-
-    .slider_section{
-        background: url("../assets/slider_image.png");
-        background-size: cover;
-        background-position: 50% 0%;
-        width: 100%;
-        height: 80vh;
-
-    }
-
-    .phone_slider{
-        width: 100%;
-        height: 400px;
-        position: relative;
-    }
-
-    .slider_text{
-        position: relative;
-        top: 60%;
-        left: 10px;
-
-    }
-
 
     .navbar{
-        margin-bottom: 0;
         min-height: 120px;
-
-    }
-
-    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
-        margin-top: 42px;
-        background: black;
-
-    }
-
-    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-
-        background: black;
     }
 
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        margin-top: 70px;
         border-color: #e7e7e7;
-        margin-top: 60px;
+    }
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 35px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background: black;
+        /* background-color: transparent; */
+        /* background-image: none; */
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #0c0c0c;
     }
 }
-
-/* laptop (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 720px)
-and (max-device-width : 1024px) {
-    /* STYLES GO HERE */
-
-    .logo {
-        position: absolute;
-        top: 16px;
-        left: 30px;
-    }
-
-    .header_section{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-bottom: 0px;
-    }
-
-    .feature_section, .detail_section1, .detail_section2{
-        margin: 0;
-        padding: 0;
-    }
-
-    .container {
-        width: 100%;
-        padding: 0%;
-    }
-
-    .slider_section{
-        background: url("../assets/slider_image.png");
-        background-size: cover;
-        background-position: 50% 0%;
-        width: 100%;
-        height: 80vh;
-
-    }
-
-    .phone_slider{
-        width: 100%;
-        height: 400px;
-        position: relative;
-    }
-
-    .slider_text{
-        position: relative;
-        top: 60%;
-        left: 20px;
-        width: 65%;
-
+@media (min-width: 768px) and (max-width: 992px) {
+    .footer_section{
+        text-align: center;
     }
 
     .navbar{
-        margin-bottom: 0;
-        /*min-height: 120px;*/
-
-    }
-
-    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
-        margin-top: 42px;
-        background: black;
-
-    }
-
-    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-
-        background: black;
-    }
-
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-        border-color: #e7e7e7;
-        margin-top: 60px;
+        min-height: 120px;
     }
 
     .navbar-nav {
         float: right;
-        margin: 0;
-    }
-
-    .menu_item ul li {
-        display: inline-block;
-        margin-right: 0px;
-    }
-
-    .menu_item ul li a {
-        /* padding: 10px; */
-        font-size: 12px;
-        font-weight: bold;
-        color: black;
-        text-decoration: none;
+        margin: 0px;
+        margin-top: 35px;
     }
 
 }
-
-/*large screen*/
-@media only screen
-and (min-device-width: 1024px)
-and (max-device-width: 1600px)
-{
-
-}
-/*extra large*/
-@media only screen
-and (min-device-width: 1600px)
-and (max-device-width: 2545px)
-{
-    .menuvar{
-        width: 40%;
-        position: absolute;
-        top: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
+@media (min-width: 992px) and (max-width: 1200px) { }
+@media (min-width: 1200px) {  }
 
 /* This only works with JavaScript,
 if it's not present, don't show loader */
