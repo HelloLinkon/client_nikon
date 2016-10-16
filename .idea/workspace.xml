@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b60c9583-eaee-4db4-ac6c-fb1fbeb03a5a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/feature1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FrutigerNextLTBoldCond.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FrutigerNextLTBoldCond.ttf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="b60c9583-eaee-4db4-ac6c-fb1fbeb03a5a" name="Default" comment="" />
     <ignored path="nikon_school.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -245,12 +239,12 @@
       <updated>1476418146681</updated>
       <workItem from="1476418150066" duration="35803000" />
       <workItem from="1476522975238" duration="51000" />
-      <workItem from="1476604434915" duration="1864000" />
+      <workItem from="1476604434915" duration="1971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37718000" />
+    <option name="totallyTimeSpent" value="37825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
