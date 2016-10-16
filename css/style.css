@@ -657,7 +657,7 @@ p{
     .menu_item ul li {
         display: inline-block;
         margin-right: 0px;
-        margin-left: 0px;
+        margin-left: 1em;
         font-size: 12px;
     }
 

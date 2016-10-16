@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b60c9583-eaee-4db4-ac6c-fb1fbeb03a5a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="nikon_school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+            <state relative-caret-position="232">
+              <caret line="658" column="26" selection-start-line="658" selection-start-column="26" selection-end-line="658" selection-end-column="26" />
               <folding>
                 <element signature="e#6816#8284#0" expanded="false" />
               </folding>
@@ -242,12 +241,12 @@
       <updated>1476418146681</updated>
       <workItem from="1476418150066" duration="35803000" />
       <workItem from="1476522975238" duration="51000" />
-      <workItem from="1476604434915" duration="4390000" />
+      <workItem from="1476604434915" duration="4487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40244000" />
+    <option name="totallyTimeSpent" value="40341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -348,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+        <state relative-caret-position="232">
+          <caret line="658" column="26" selection-start-line="658" selection-start-column="26" selection-end-line="658" selection-end-column="26" />
           <folding>
             <element signature="e#6816#8284#0" expanded="false" />
           </folding>
