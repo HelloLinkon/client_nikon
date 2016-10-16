@@ -1,12 +1,14 @@
 /*custom fonts*/
-@font-face {font-family: "FrutigerNextLTHeavy";
-    src: url("//db.onlinewebfonts.com/t/7592646debad7dff015b9fa0a7f498cb.eot");
-    src: url("//db.onlinewebfonts.com/t/7592646debad7dff015b9fa0a7f498cb.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7592646debad7dff015b9fa0a7f498cb.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/7592646debad7dff015b9fa0a7f498cb.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/7592646debad7dff015b9fa0a7f498cb.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/7592646debad7dff015b9fa0a7f498cb.svg#FrutigerNextLT") format("svg");
+@font-face {font-family: "FrutiHard";
+    src: url("../fonts/four.TTF");
 }
+@font-face {font-family: "FrutiLight";
+    src: url("../fonts/one.TTF");
+}
+@font-face {font-family: "FrutiBold";
+    src: url("../fonts/two.TTF");
+}
+
 
 body{
     width: 100%;
@@ -40,7 +42,7 @@ p{
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 6px;
-
+    font-family: FrutiBold;
 }
 
 .latest_news span{
@@ -53,6 +55,7 @@ p{
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
+    font-family: FrutiLight;
 }
 
 
@@ -66,6 +69,7 @@ p{
     margin: 0;
     color: #777777;
     font-size: 15px;
+    font-family: FrutiBold;
 
 }
 
@@ -112,10 +116,14 @@ p{
     color: white;
 }
 
+.slider_text h1{
+    font-family: FrutiHard;
+}
 
 
 .slider_text span{
     color: #ffe500;
+    font-family: FrutiLight;
 
 }
 
@@ -124,6 +132,7 @@ p{
     font-weight: normal;
 
     font-size: 20px;
+    font-family: FrutiBold;
 
 }
 
@@ -199,9 +208,11 @@ p{
 /*feature section
 */
 
+
 .feature_section{
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
 .feature_section img{
@@ -242,6 +253,14 @@ p{
 }
 
 /*common css*/
+.light_font{
+    font-family: FrutiLight;
+}
+
+.bold_font{
+    font-family: FrutiBold;
+}
+
 .yellow_tag{
     background: #ffe500;
     color: black;
@@ -249,6 +268,7 @@ p{
     text-transform: uppercase;
     font-weight: bold;
     padding: 5px 15px;
+    font-family: FrutiHard;
 }
 
 .black_tag{
@@ -258,6 +278,7 @@ p{
     text-transform: uppercase;
     font-weight: bold;
     padding: 5px 15px;
+    font-family: FrutiBold;
 }
 
 .relative_image{
@@ -291,6 +312,7 @@ p{
     bottom: 35px;
     left: 50px;
     width: 60%;
+
 }
 
 .feature_text > .black_tag{
@@ -301,6 +323,7 @@ p{
     color: white;
     font-size: 20px;
     font-weight: normal;
+    font-family: FrutiLight;
 }
 
 .yellow_text{
@@ -603,9 +626,9 @@ p{
 
 }
 
-@media (min-width: 1600px) and (max-width: 2545px){
+@media (min-width: 1600px) and (max-width: 1920px){
     .menuvar {
-        width: 40%;
+        width: 55%;
         position: absolute;
         top: 30px;
         left: 50%;
@@ -619,6 +642,34 @@ p{
         margin: 0;
         padding: 15px;
     }
+
+}
+
+@media (min-width: 1920px) and (max-width: 2545px){
+    .menuvar {
+        width: 45%;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .instragram_section {
+        background: #f0f0f0;
+        width: 100%;
+        height: 48px;
+        margin: 0;
+        padding: 15px;
+    }
+
+}
+
+@media (min-width: 2545px){
+    .menuvar {
+        display: none;
+    }
+
+
 
 }
 
