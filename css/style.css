@@ -61,12 +61,12 @@ p{
 
 .logo{
     position: absolute;
-    top: 33px;
+    top: 65px;
 }
 
 .nikon_menu ul{
     list-style: none;
-    margin: 0;
+    margin-top: 10px;
     color: #777777;
     font-size: 15px;
     font-family: FrutiBold;
@@ -86,6 +86,15 @@ p{
 .nikon_menu .social img{
     max-width: 30px;
     vertical-align: middle;
+}
+
+#social_section{
+    margin-left: 115px;
+    margin-top: 0px;
+}
+
+#social_section li{
+    padding: 0px;
 }
 
 /*end of header section*/
@@ -593,14 +602,38 @@ p{
 
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+
+
+    .menu_item ul{
+        list-style: none;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translateY( -50%);
+    }
+
     .menu_item ul li {
         display: inline-block;
         margin-right: 0px;
         margin-left: 0px;
+        font-size: 11px;
     }
 
     .event_text h3{
         font-size: 17px;
+    }
+
+    #social_section {
+        margin-left: 90px;
+        margin-top: 0px;
+    }
+
+    .nikon_menu ul {
+        list-style: none;
+        margin-top: 10px;
+        color: #777777;
+        font-size: 14px;
+        font-family: FrutiBold;
     }
 }
 @media (min-width: 1200px) and (max-width: 1600px){
@@ -611,6 +644,21 @@ p{
         height: 48px;
         margin: 0;
         padding: 15px;
+    }
+
+    .menu_item ul{
+        list-style: none;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translateY( -50%);
+    }
+
+    .menu_item ul li {
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: 12px;
     }
 
 }
