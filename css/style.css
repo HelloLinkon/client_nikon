@@ -296,10 +296,38 @@ p{
     background: black;
 }
 
-.button_place img{
-    max-width: 60px;
+.button_place{
+    background: #ffe100;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.button_place_w{
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.button_place:hover{
+    background: white;
     cursor: pointer;
 }
+
+.button_place img{
+    max-width: 20px;
+    margin: 20px;
+}
+
+.button_place_w img{
+    max-width: 20px;
+    margin: 20px;
+}
+
+
 
 /*.button_place img:hover{*/
     /*display: none;*/
@@ -310,7 +338,7 @@ p{
 
 .btn_position{
     position: absolute;
-    right: 50px;
+    right: 30px;
     bottom: 35px;
 }
 
