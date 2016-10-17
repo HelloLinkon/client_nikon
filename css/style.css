@@ -139,7 +139,8 @@ p{
 .slider_text h3{
     text-transform: capitalize;
     font-weight: normal;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
     font-family: FrutiBold;
 
@@ -149,6 +150,7 @@ p{
     background: #ffe500;
     border: none;
     text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
     margin-top: 10px;
     padding: 10px 20px;
@@ -299,6 +301,13 @@ p{
     cursor: pointer;
 }
 
+/*.button_place img:hover{*/
+    /*display: none;*/
+    /*!*background: url('../assets/round_btn_w.png');*!*/
+
+/*}*/
+
+
 .btn_position{
     position: absolute;
     right: 50px;
@@ -307,17 +316,17 @@ p{
 
 .feature_text{
     position: absolute;
-    bottom: 35px;
-    left: 50px;
+    bottom: 32px;
+    left: 30px;
     width: 60%;
 
 }
 
 .feature_text > .black_tag{
-    width: 60%;
+    width: 50%;
 }
 .fet_details{
-
+    padding-top: 10px;
     color: white;
     font-size: 20px;
     font-weight: normal;
@@ -478,6 +487,8 @@ p{
     vertical-align: middle;
 }
 
+
+
 /*media query*/
 @media (max-width: 320px){
 
@@ -502,7 +513,9 @@ p{
 }
 @media (min-width: 320px) and (max-width: 768px) {
 
-
+    .feature_text > .black_tag {
+        width: 56%;
+    }
 
     .footer_section{
         text-align: center;
@@ -569,7 +582,14 @@ p{
         padding: 15px;
     }
 }
+
+
 @media (min-width: 768px) and (max-width: 992px) {
+
+    .padding_top{
+        margin-top: 10px;
+    }
+
     .footer_section{
         text-align: center;
     }
@@ -636,79 +656,79 @@ p{
         font-family: FrutiBold;
     }
 }
-@media (min-width: 1200px) and (max-width: 1600px){
+/*@media (min-width: 1200px) and (max-width: 1600px){*/
 
-    .instragram_section {
-        background: #f0f0f0;
-        width: 100%;
-        height: 48px;
-        margin: 0;
-        padding: 15px;
-    }
+    /*.instragram_section {*/
+        /*background: #f0f0f0;*/
+        /*width: 100%;*/
+        /*height: 48px;*/
+        /*margin: 0;*/
+        /*padding: 15px;*/
+    /*}*/
 
-    .menu_item ul{
-        list-style: none;
-        position: absolute;
-        top: 50%;
-        left: 25%;
-        transform: translateY( -50%);
-    }
+    /*.menu_item ul{*/
+        /*list-style: none;*/
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*left: 25%;*/
+        /*transform: translateY( -50%);*/
+    /*}*/
 
-    .menu_item ul li {
-        display: inline-block;
-        margin-right: 0px;
-        margin-left: 1em;
-        font-size: 12px;
-    }
+    /*.menu_item ul li {*/
+        /*display: inline-block;*/
+        /*margin-right: 0px;*/
+        /*margin-left: 1em;*/
+        /*font-size: 12px;*/
+    /*}*/
 
-}
+/*}*/
 
-@media (min-width: 1600px) and (max-width: 1920px){
-    .menuvar {
-        width: 55%;
-        position: absolute;
-        top: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+/*@media (min-width: 1600px) and (max-width: 1920px){*/
+    /*.menuvar {*/
+        /*width: 55%;*/
+        /*position: absolute;*/
+        /*top: 30px;*/
+        /*left: 50%;*/
+        /*transform: translateX(-50%);*/
+    /*}*/
 
-    .instragram_section {
-        background: #f0f0f0;
-        width: 100%;
-        height: 48px;
-        margin: 0;
-        padding: 15px;
-    }
+    /*.instragram_section {*/
+        /*background: #f0f0f0;*/
+        /*width: 100%;*/
+        /*height: 48px;*/
+        /*margin: 0;*/
+        /*padding: 15px;*/
+    /*}*/
 
-}
+/*}*/
 
-@media (min-width: 1920px) and (max-width: 2545px){
-    .menuvar {
-        width: 45%;
-        position: absolute;
-        top: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+/*@media (min-width: 1920px) and (max-width: 2545px){*/
+    /*.menuvar {*/
+        /*width: 45%;*/
+        /*position: absolute;*/
+        /*top: 30px;*/
+        /*left: 50%;*/
+        /*transform: translateX(-50%);*/
+    /*}*/
 
-    .instragram_section {
-        background: #f0f0f0;
-        width: 100%;
-        height: 48px;
-        margin: 0;
-        padding: 15px;
-    }
+    /*.instragram_section {*/
+        /*background: #f0f0f0;*/
+        /*width: 100%;*/
+        /*height: 48px;*/
+        /*margin: 0;*/
+        /*padding: 15px;*/
+    /*}*/
 
-}
+/*}*/
 
-@media (min-width: 2545px){
-    .menuvar {
-        display: none;
-    }
+/*@media (min-width: 2545px){*/
+    /*.menuvar {*/
+        /*display: none;*/
+    /*}*/
 
 
 
-}
+/*}*/
 
 /* This only works with JavaScript,
 if it's not present, don't show loader */
