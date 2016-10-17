@@ -9,6 +9,43 @@
     src: url("../fonts/two.TTF");
 }
 
+@font-face{
+    font-family:"FrutigerNextW01-LightCn";
+    src:url("../fonts/eae5445d-d2ec-4742-bd7f-f007516b0477.eot?#iefix");
+    src:url("../fonts/eae5445d-d2ec-4742-bd7f-f007516b0477.eot?#iefix") format("eot"),
+    url("../fonts/e9beef83-a4c3-4f1c-a1d1-45da483ea062.woff2") format("woff2"),
+    url("../fonts/463e66e2-e4eb-4ee6-8aef-fb9e18b7b025.woff") format("woff"),
+    url("../fonts/b85ce570-937c-45a8-9ab6-7574bf1374ed.ttf") format("truetype"),
+    url("../fonts/a369207c-7e56-40ac-a9f0-a984070f0643.svg#a369207c-7e56-40ac-a9f0-a984070f0643") format("svg");
+}
+@font-face{
+    font-family:"FrutigerNextW01-Condens";
+    src:url("../fonts/3aabd8f8-de16-4c1d-94fa-1d85cdeca8b5.eot?#iefix");
+    src:url("../fonts/3aabd8f8-de16-4c1d-94fa-1d85cdeca8b5.eot?#iefix") format("eot"),
+    url("../fonts/33de3f05-9ad2-4aa8-8305-953d212ed871.woff2") format("woff2"),
+    url("../fonts/f5206e18-da88-476d-a17e-ac9c580f00c1.woff") format("woff"),
+    url("../fonts/084bc02f-68ac-47c0-8102-0b1b53e8d4ac.ttf") format("truetype"),
+    url("../fonts/eba3b54b-79f9-4236-b2dd-5acf555f20f1.svg#eba3b54b-79f9-4236-b2dd-5acf555f20f1") format("svg");
+}
+@font-face{
+    font-family:"FrutigerNextW01-BoldCn";
+    src:url("../fonts/497c3588-4b93-4f85-bcbc-52af2bdf03df.eot?#iefix");
+    src:url("../fonts/497c3588-4b93-4f85-bcbc-52af2bdf03df.eot?#iefix") format("eot"),
+    url("../fonts/46195450-8eef-4511-ac19-062ed9a6f1a0.woff2") format("woff2"),
+    url("../fonts/78cb2356-22e7-4eae-bbb7-f947f2384d4b.woff") format("woff"),
+    url("../fonts/ac1fbae2-c358-43bd-8789-791cd09a114d.ttf") format("truetype"),
+    url("../fonts/0000e0ba-ee2d-4a44-b4cf-63512287a48c.svg#0000e0ba-ee2d-4a44-b4cf-63512287a48c") format("svg");
+}
+@font-face{
+    font-family:"FrutigerNextW01-HeavyCn";
+    src:url("../fonts/4904ecc3-8863-4be1-858d-c446f0c33578.eot?#iefix");
+    src:url("../fonts/4904ecc3-8863-4be1-858d-c446f0c33578.eot?#iefix") format("eot"),
+    url("../fonts/8c275dca-1114-488a-828d-b32b69ad2a80.woff2") format("woff2"),
+    url("../fonts/a573c5c9-139c-40e2-91eb-3e5bc04a320a.woff") format("woff"),
+    url("../fonts/0219c932-c8a6-47b2-a642-5fa400fda973.ttf") format("truetype"),
+    url("../fonts/5338c78d-52a2-44c6-a583-03f06e786ae1.svg#5338c78d-52a2-44c6-a583-03f06e786ae1") format("svg");
+}
+
 
 body{
     width: 100%;
@@ -42,7 +79,7 @@ p{
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 6px;
-    font-family: FrutiBold;
+    font-family: FrutigerNextW01-BoldCn;
 }
 
 .latest_news span{
@@ -55,7 +92,7 @@ p{
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
-    font-family: FrutiLight;
+    font-family: FrutigerNextW01-LightCn;
 }
 
 
@@ -69,7 +106,7 @@ p{
     margin-top: 10px;
     color: #777777;
     font-size: 15px;
-    font-family: FrutiBold;
+    font-family: FrutigerNextW01-LightCn;
 
 }
 
@@ -126,13 +163,13 @@ p{
 }
 
 .slider_text h1{
-    font-family: FrutiHard;
+    font-family: FrutigerNextW01-HeavyCn;
 }
 
 
 .slider_text span{
     color: #ffe500;
-    font-family: FrutiLight;
+    font-family: FrutigerNextW01-LightCn;
 
 }
 
@@ -142,7 +179,7 @@ p{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
-    font-family: FrutiBold;
+    font-family: FrutigerNextW01-BoldCn;
 
 }
 
@@ -154,6 +191,7 @@ p{
     font-weight: bold;
     margin-top: 10px;
     padding: 10px 20px;
+    font-family: FrutigerNextW01-BoldCn;
 }
 
 /*menubar*/
@@ -163,6 +201,7 @@ p{
     top: 30px;
     left: 50%;
     transform: translateX(-50%);
+    font-family: FrutigerNextW01-BoldCn;
 }
 
 .navbar-inverse{
@@ -174,6 +213,7 @@ p{
 .navbar-inverse .navbar-brand{
     background: black;
     color: white;
+    font-family: FrutigerNextW01-BoldCn;
 }
 
 .navbar-inverse .navbar-brand:hover {
@@ -254,11 +294,11 @@ p{
 
 /*common css*/
 .light_font{
-    font-family: FrutiLight;
+    font-family: FrutigerNextW01-LightCn;
 }
 
 .bold_font{
-    font-family: FrutiBold;
+    font-family: FrutigerNextW01-HeavyCn;
 }
 
 .yellow_tag{
@@ -268,7 +308,7 @@ p{
     text-transform: uppercase;
     font-weight: bold;
     padding: 5px 15px;
-    font-family: FrutiHard;
+    font-family: FrutigerNextW01-BoldCn;
 }
 
 .black_tag{
@@ -278,7 +318,7 @@ p{
     text-transform: uppercase;
     font-weight: bold;
     padding: 5px 15px;
-    font-family: FrutiBold;
+    font-family: FrutigerNextW01-BoldCn;
 }
 
 .relative_image{
@@ -358,7 +398,7 @@ p{
     color: white;
     font-size: 20px;
     font-weight: normal;
-    font-family: FrutiLight;
+    font-family: FrutigerNextW01-LightCn;
 }
 
 .yellow_text{
@@ -408,6 +448,7 @@ p{
     font-weight: bold;
     margin-top: 10px;
     padding: 10px 20px;
+    font-family: FrutigerNextW01-BoldCn;
 }
 
 /*instragram news*/
@@ -464,6 +505,7 @@ p{
     font-weight: bold;
     margin-top: 10px;
     padding: 10px 20px;
+    font-family: FrutigerNextW01-BoldCn;
 }
 
 /*events*/
@@ -513,6 +555,10 @@ p{
 .event_place img{
     max-width: 20px;
     vertical-align: middle;
+}
+
+.footer_section{
+    font-family: FrutigerNextW01-LightCn;
 }
 
 
