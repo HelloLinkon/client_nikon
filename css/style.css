@@ -250,8 +250,8 @@ p{
 
 
 .feature_section{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
 
 }
 
@@ -262,8 +262,8 @@ p{
 /*detaile section
 */
 .detail_section1, .detail_section2{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .detail_section1 img, .detail_section2 img{
@@ -406,6 +406,7 @@ p{
     color: white;
     font-size: 26px;
     font-weight: normal;
+    line-height: 30px;
     font-family: FrutigerNextW01-LightCn;
 }
 
@@ -520,7 +521,7 @@ p{
 
 .readMore_btn{
     position: absolute;
-    top: 35px;
+    top: 20px;
     right: 15px;
     cursor: pointer;
 }
@@ -531,7 +532,6 @@ p{
     border: none;
     text-align: center;
     font-weight: bold;
-    margin-top: 10px;
     padding: 10px 20px;
 }
 
@@ -565,8 +565,16 @@ p{
     vertical-align: middle;
 }
 
+.event_text h3{
+    font-size: 26px;
+}
+
 .footer_section{
     font-family: FrutigerNextW01-LightCn;
+}
+
+hr{
+    margin: 0;
 }
 
 
@@ -851,7 +859,9 @@ p{
     }
 
     .event_text h3{
-        font-size: 17px;
+        font-size: 26px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
 
     #social_section {
@@ -869,7 +879,15 @@ p{
 }
 @media (min-width: 1200px) and (max-width: 1600px){
 
+    .event_text h3 {
+        font-size: 30px;
+        padding: 7px 0px;
+        /* margin-bottom: 0px; */
+    }
 
+    .event_time{
+        margin-top: 15px;
+    }
 
     .instragram_section {
         background: #f0f0f0;
@@ -898,6 +916,11 @@ p{
 
 @media (min-width: 1600px) and (max-width: 1920px){
 
+    .event_text h3 {
+        font-size: 30px;
+        padding: 7px 0px;
+        /* margin-bottom: 0px; */
+    }
 
     .menuvar {
         width: 55%;
@@ -919,6 +942,11 @@ p{
 
 @media (min-width: 1920px) and (max-width: 2545px){
 
+    .event_text h3 {
+        font-size: 30px;
+        padding: 7px 0px;
+        /* margin-bottom: 0px; */
+    }
 
     .menuvar {
         width: 45%;
