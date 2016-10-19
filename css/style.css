@@ -601,6 +601,10 @@ hr{
         width: 61%;
         font-size: 12px;
     }
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
     /*.event_text h3{*/
         /*font-size: 17px;*/
