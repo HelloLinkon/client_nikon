@@ -602,9 +602,9 @@ hr{
         font-size: 12px;
     }
 
-    .event_text h3{
-        font-size: 17px;
-    }
+    /*.event_text h3{*/
+        /*font-size: 17px;*/
+    /*}*/
 }
 @media (min-width: 320px) and (max-width: 768px) {
 
@@ -729,6 +729,17 @@ hr{
         height: 48px;
         margin: 0;
         padding: 15px;
+    }
+
+    .event_text h3 {
+        font-size: 26px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
