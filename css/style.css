@@ -606,11 +606,25 @@ hr{
         margin-bottom: 10px;
     }
 
+    .readMore_btn {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        cursor: pointer;
+    }
+
     /*.event_text h3{*/
         /*font-size: 17px;*/
     /*}*/
 }
 @media (min-width: 320px) and (max-width: 768px) {
+
+    .readMore_btn {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+        cursor: pointer;
+    }
 
     .button_place{
         position: relative;
